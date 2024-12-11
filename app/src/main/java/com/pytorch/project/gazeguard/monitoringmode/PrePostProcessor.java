@@ -2,7 +2,7 @@
 // All rights reserved.
 //
 // This source code is licensed under the BSD-style license found in the
-// LICENSE file in the root directory of this source tree.
+// See: https://github.com/pytorch/android-demo-app
 
 package com.pytorch.project.gazeguard.monitoringmode;
 

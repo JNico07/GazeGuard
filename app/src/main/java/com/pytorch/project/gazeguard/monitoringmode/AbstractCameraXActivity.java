@@ -2,7 +2,7 @@
 // All rights reserved.
 //
 // This source code is licensed under the BSD-style license found in the
-// LICENSE file in the root directory of this source tree.
+// See: https://github.com/pytorch/android-demo-app
 
 package com.pytorch.project.gazeguard.monitoringmode;
 
@@ -19,7 +19,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.UiThread;
 import androidx.annotation.WorkerThread;
-import androidx.camera.core.CameraX;
 import androidx.camera.core.ImageAnalysis;
 import androidx.camera.core.ImageProxy;
 import androidx.camera.core.Preview;
@@ -30,7 +29,6 @@ import androidx.core.content.ContextCompat;
 import androidx.lifecycle.LifecycleOwner;
 
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Executor;
 
 import androidx.camera.core.SurfaceRequest;
 //import androidx.camera.core.Surface;

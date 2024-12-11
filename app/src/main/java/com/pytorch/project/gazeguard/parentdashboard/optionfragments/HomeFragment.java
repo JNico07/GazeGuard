@@ -1,6 +1,5 @@
 package com.pytorch.project.gazeguard.parentdashboard.optionfragments;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 

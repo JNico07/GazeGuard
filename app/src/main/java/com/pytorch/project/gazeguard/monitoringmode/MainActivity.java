@@ -2,7 +2,7 @@
 // All rights reserved.
 //
 // This source code is licensed under the BSD-style license found in the
-// LICENSE file in the root directory of this source tree.
+// See: https://github.com/pytorch/android-demo-app
 
 package com.pytorch.project.gazeguard.monitoringmode;
 
@@ -66,9 +66,6 @@ import android.app.AppOpsManager;
 
 public class MainActivity extends AppCompatActivity implements Runnable {
     private int mImageIndex = 0;
-//    private String[] mTestImages = {"test1.png", "test2.jpg", "test3.png", "test4.jpg"};
-
-//    private ImageView mImageView;
     private Button mButtonDetect;
     private ResultView mResultView;
     private ProgressBar mProgressBar;
@@ -114,9 +111,6 @@ public class MainActivity extends AppCompatActivity implements Runnable {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-//            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
-//        }
 
         mAuth = FirebaseAuth.getInstance();
 

@@ -3,8 +3,6 @@ package com.pytorch.project.gazeguard.common;
 import android.content.Context;
 import android.view.View;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import org.pytorch.demo.objectdetection.R;
 
 import it.sephiroth.android.library.tooltip.Tooltip;

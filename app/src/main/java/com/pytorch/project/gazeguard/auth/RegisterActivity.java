@@ -22,7 +22,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.pytorch.project.gazeguard.common.WelcomeActivity;
 
 import org.pytorch.demo.objectdetection.R;
 

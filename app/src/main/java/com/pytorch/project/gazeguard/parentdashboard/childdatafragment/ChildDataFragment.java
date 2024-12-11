@@ -1,7 +1,5 @@
 package com.pytorch.project.gazeguard.parentdashboard.childdatafragment;
 
-import static com.pytorch.project.gazeguard.common.RecommendationsManager.showRecommendationsDialog;
-
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.content.res.ColorStateList;
@@ -48,9 +46,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
-import java.util.Objects;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
