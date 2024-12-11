@@ -28,7 +28,7 @@
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
 
     <application
-        android:name="com.pytorch.project.gazeguard.common.GazeGuard"
+        android:name="com.team.project.gazeguard.common.GazeGuard"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -36,27 +36,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectApp">
         <activity
-            android:name="com.pytorch.project.gazeguard.parentdashboard.ParentDashboardActivity"
+            android:name="com.team.project.gazeguard.parentdashboard.ParentDashboardActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.pytorch.project.gazeguard.auth.RegisterActivity"
+            android:name="com.team.project.gazeguard.auth.RegisterActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.pytorch.project.gazeguard.auth.LoginActivity"
+            android:name="com.team.project.gazeguard.auth.LoginActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.pytorch.project.gazeguard.common.ChooseActivity"
+            android:name="com.team.project.gazeguard.common.ChooseActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.pytorch.project.gazeguard.common.WelcomeActivity"
+            android:name="com.team.project.gazeguard.common.WelcomeActivity"
             android:configChanges="orientation"
             android:exported="true"
             android:screenOrientation="portrait">
@@ -67,31 +67,31 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.pytorch.project.gazeguard.monitoringmode.MainActivity"
+            android:name="com.team.project.gazeguard.monitoringmode.MainActivity"
             android:configChanges="orientation"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.pytorch.project.gazeguard.monitoringmode.EyeTrackerActivity"
+            android:name="com.team.project.gazeguard.monitoringmode.EyeTrackerActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
 
         <service
-            android:name="com.pytorch.project.gazeguard.monitoringmode.DetectorService"
+            android:name="com.team.project.gazeguard.monitoringmode.DetectorService"
             android:configChanges="orientation"
             android:exported="false"
             android:foregroundServiceType="camera|dataSync"
             android:screenOrientation="portrait" />
         <service
-            android:name="com.pytorch.project.gazeguard.monitoringmode.LockService"
+            android:name="com.team.project.gazeguard.monitoringmode.LockService"
             android:configChanges="orientation"
             android:exported="false"
             android:foregroundServiceType="dataSync"
             android:screenOrientation="portrait" />
 
         <receiver
-            android:name="com.pytorch.project.gazeguard.monitoringmode.MyDeviceAdminReceiver"
+            android:name="com.team.project.gazeguard.monitoringmode.MyDeviceAdminReceiver"
             android:exported="true"
             android:permission="android.permission.BIND_DEVICE_ADMIN">
             <meta-data

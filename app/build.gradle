@@ -10,7 +10,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.pytorch.project.gazeguard"
+        applicationId "com.team.project.gazeguard"
         minSdkVersion 26
         targetSdkVersion 34
         versionCode 1
@@ -56,7 +56,7 @@ android {
         }
     }
 
-    namespace 'org.pytorch.demo.objectdetection'
+    namespace 'org.team.demo.objectdetection'
 }
 
 dependencies {

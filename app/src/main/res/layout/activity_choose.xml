@@ -8,7 +8,7 @@
     android:background="@color/app_theme"
     android:orientation="vertical"
     android:padding="0dp"
-    tools:context="com.pytorch.project.gazeguard.common.ChooseActivity">
+    tools:context="com.team.project.gazeguard.common.ChooseActivity">
 
     <!-- Logo Section -->
     <LinearLayout
