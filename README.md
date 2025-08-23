@@ -1,6 +1,6 @@
 # 👁️ GazeGuard
 
-**GazeGuard** is an advanced Android application designed to help monitor and manage screen time using AI-powered gaze detection. By leveraging real-time eye-tracking and app usage analytics, GazeGuard empowers families to promote healthier digital habits and ensure responsible device use.
+**GazeGuard** is an advanced Android application designed to help monitor and manage screen time using eye-tracking system. By leveraging real-time eye-tracking and app usage analytics, GazeGuard empowers families to promote healthier digital habits and ensure responsible device use.
 
 ---
 
